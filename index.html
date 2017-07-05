@@ -10,8 +10,45 @@
 
   <body>
     <div class="container">
-
+      <h3>Movie Tickets</h3>
+      <form>
+        <div class="movieChoices">
+          <label for="movieInput">Movie Options:</label>
+          <select class="form-control" id="movieInput">
+            <option>- select -</option>
+            <option>Pretty Woman</option>
+            <option>Best in Show</option>
+            <option>Wonder Woman</option>
+            <option>Up</option>
+          </select>
+        </div>
+        <div class="movieTime">
+          <label for="timeInput">Movie Times Available for movie selected:</label>
+          <select class="form-control" id="timeInput">
+            <option>- select -</option>
+            <option>13:00 Matinee</option>
+            <option>15:00 Afternoon</option>
+            <option>17:00 Eveing</option>
+            <option>19:00 Evening</option>
+          </select>
+        </div>
+        <div class="movieAge">
+          <label for="ageInput">Age Demographic:</label>
+          <select class="form-control" id="ageInput">
+            <option>- select -</option>
+            <option>12 and under</option>
+            <option>12 - 18</option>
+            <option>18 - 60</option>
+            <option>60 and over</option>
+          </select>
+        </div>
+        <br>
+        <button type="submit" class="btn">Book your tickets!</button>
+      </form>
+      <div class="ticketResults">
+        <span id="showPrice"></span>
+      </div>
     </div>
   </body>
-  
+
 </html>

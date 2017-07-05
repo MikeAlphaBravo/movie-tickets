@@ -26,7 +26,6 @@ function Ticket(title, time, age) {
 }
 
 Ticket.prototype.price = function() {
-  console.log("Million $$");
   var ticketPrice = 8;
   if (this.movieTitle === "Pretty Woman") {
     ticketPrice -= 1;
